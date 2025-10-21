@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>CSS Proj 03</title>
+  </head>
+  <body class="overflow-hidden">
+    <div class="px-4 lg:px-24">
+      <nav class="h-20 flex justify-between items-center">
+        <!-- Left -->
+        <div class="flex gap-10 items-center">
+          <img src="./Logo.svg" alt="" />
+        </div>
+        <div>
+          <ul
+            class="hidden xl:flex flex gap-20 text-black font-bold font-large"
+          >
+            <li class="text-black cursor-pointer underline">Home</li>
+            <li class="text-black cursor-pointer hover:underline">
+              Collection
+            </li>
+            <li class="text-black cursor-pointer hover:underline">Shop</li>
+            <li class="text-black cursor-pointer hover:underline">About</li>
+            <li class="text-black cursor-pointer hover:underline">Contact</li>
+          </ul>
+        </div>
+        <!-- Right -->
+        <div class="flex gap-8">
+          <i class="fa-solid text-xl cursor-pointer fa-bag-shopping"></i>
+          <i class="fa-solid text-xl cursor-pointer fa-user"></i>
+          <i class="fa-solid text-xl cursor-pointer fa-magnifying-glass"></i>
+        </div>
+      </nav>
+      <!-- hero section -->
+      <main>
+        <!-- right -->
+        <div class="max-w-[500px] mx-auto">
+          <img
+            src="./03_flowerCut.png"
+            alt=""
+            class="buttom-0 right-0 absolute hidden md:flex xl:flex "
+          />
+          <div>
+            <img src="./03_flower.png" alt="" class="md:hidden mt-[-15px]" />
+          </div>
+        </div>
+        <!-- left -->
+        <div
+          class="lg:h-[500px] flex flex-col gap-10 justify-center items-start w-[400px] relative"
+        >
+          <section class="flex justify-center flex-col">
+            <div class="absolute hidden lg:flex flex-col left-[-50px]" >
+              <p class="text-7xl">.</p>
+              <p class="text-7xl mt-[-20px]">.</p>
+              <p class="text-7xl mt-[-50px]">.</p>
+              <p class="text-7xl mt-[-20px]">.</p>
+
+            </div>
+            <h1 class="pb-6 text-black text-3xl lg:text-8xl  font-bold font-awesome pt-4">MONSTERA</h1>
+            <p class="lg:w-[400px]">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <p class="pr-4">
+              Voluptatibus cumque, aspernatur deserunt dicta tenetur, nemo hic
+              veritatis laborum veniam nisi doloribus aliquam facere
+              consectetur?
+            </p>
+          </section>
+          <button
+            class="bg-lime-800 text-white lg:text-3xl rounded-full px-8 py-2 md:px-6 py-2"
+          >
+            DISCOVER <i class="fa-solid fa-angle-right"></i>
+          </button>
+        </div>
+
+        <div class="hidden xl:flex gap-8">
+          <div class="flex gap-4">
+            <i class="fa-solid lg:text-3xl fa-droplet"></i>
+            <div>
+              <h3 class="font-bold">Feeding</h3>
+              <p class="text-xs font-thin w-[150px]">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex gap-4">
+            <i class="fa-solid text-3xl fa-lightbulb"></i>
+            <div>
+              <h3 class="font-bold">Light</h3>
+              <p class="text-xs font-thin w-[150px]">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex gap-4">
+            <i class="fa-solid text-3xl fa-trowel"></i>
+           <div>
+             <h3 class="font-bold">Care</h3>
+            <p class="text-xs font-thin w-[150px]">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+           </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
